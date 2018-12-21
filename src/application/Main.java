@@ -11,7 +11,7 @@ public class Main extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		DB.connect("jdbc:mysql://mysql02.it.ntnu.no:3306/niklaso_tdt4140?useSSL=false", "niklaso_tdt4140", "gruppe69");
+		DB.connect("[your database path]", "[your username]", "[your password]");
 		Stage stage = primaryStage;
 		stage.setFullScreen(true);
 		stage.setFullScreenExitHint("");
